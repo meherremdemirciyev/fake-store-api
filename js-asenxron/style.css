@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+  background-color: rgb(68, 129, 129);
+  padding: 5px 0 10px;
+  font-weight: 600;
+}
+
+img {
+  height: 300px;
+  object-fit: contain;
+}
+
+.card {
+  max-height: 500px;
+  height: 100% !important;
+  margin-bottom: 40px;
+}
+
+.price {
+  padding: 5px 10px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+.img {
+  padding: 15px;
+}
+
+.search {
+  text-align: center;
+}
+
+.search .box {
+  width: 40%;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 5px 20px;
+  border: 1px solid gray;
+}
+
+.active2 {
+  background-color: red;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 40px 0;
+  background: #fff;
+}
+
+section img {
+  width: 100%;
+}
+
+.image {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.image h1 {
+  font-size: 80px;
+}
+
+.image h3 {
+  font-size: 80px;
+}
+
+.link {
+  color: #fff;
+  padding: 10px 20px;
+  background: #03ee03c0;
+  margin: 20px 0;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #fff;
+  background-color: #08e710;
+}
+
+#error {
+  display: none;
+}
+
+.form-select {
+  width: 150px;
+}
+
+#delete {
+  background-color: red;
+  color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+#rating {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.active {
+  color: red;
+}
